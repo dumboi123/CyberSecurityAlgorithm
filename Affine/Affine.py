@@ -5,8 +5,6 @@ def findInverse (a, collection):
     return None
 
 def ShiftCharEncript(a, b, char, baseChar):
-    numberChar = ord(char) 
-    numberResult = (a * (numberChar - ord(baseChar)) + b) %26 + ord(baseChar)
     return chr(((a * (ord(char) - ord(baseChar)) + b) % 26) + ord(baseChar))
 
 def ShiftCharDecript(a, b, char, baseChar):

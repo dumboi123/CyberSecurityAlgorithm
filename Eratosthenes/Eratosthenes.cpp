@@ -69,8 +69,7 @@ vector<int> eratosthenesRecursion(int n, int currentPrimeNumber, vector<bool> &p
 
     return eratosthenesRecursion(n, currentPrimeNumber + 1, primeNumbers);
 }
-// TODO: Implement the recursive version of Eratosthenes algorithm
-// FIXME: The recursive version of Eratosthenes algorithm is not implemented yet
+
 vector<int> eratosthenesRecursive(int n)
 {
     vector<bool> primeNumbers(n + 1, true);
